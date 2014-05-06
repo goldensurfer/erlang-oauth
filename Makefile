@@ -9,6 +9,6 @@ DIALYZER_OPTS = -Werror_handling -Wrace_conditions -Wunmatched_returns | fgrep -
 DEPS_DIR = ../../deps
 DEPS = ibrowse
 
-dep_ibrowse = https://github.com/goldensurfer/ibrowse master
+dep_ibrowse = https://github.com/goldensurfer/ibrowse 1.2
 
 include erlang.mk
